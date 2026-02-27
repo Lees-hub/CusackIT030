@@ -1,5 +1,7 @@
-
-.highlight {
+p {
+color: gray;
+}
+p .highlight {
 color: pink;
 }
 
@@ -7,6 +9,4 @@ color: pink;
 color: green;
 }
 
-p {
-color: gray;
-}
+
