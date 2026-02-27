@@ -1,0 +1,21 @@
+
+p {
+	color:red;
+}
+
+body p{
+	color:gray;
+}
+
+P + .highlight {
+color: pink;
+}
+
+#special {
+color: black;
+}
+
+P + .highlight{
+	color:green;
+}
+
