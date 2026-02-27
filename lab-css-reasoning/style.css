@@ -1,12 +1,12 @@
 
-style {
-color: red;
-}
-
 .highlight {
 color: pink;
 }
 
 #special {
 color: black;
+}
+
+p {
+color: gray;
 }
