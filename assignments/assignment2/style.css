@@ -1,0 +1,39 @@
+
+.formatbox{
+    padding: 5px;
+}
+
+h1{
+	font-size: 400%;
+}
+
+h2{
+	border: 3-x solid black;
+	border-bottom: 3px solid black;
+}
+
+.title{
+	border:0px solid black;
+	border-bottom: 0px solid black;
+}
+
+body{
+	background: #a5c9a8;
+	font-family: sans-serif;
+}
+
+p{
+	line-height: 1.5 ;
+}
+img{
+	width:20vw;
+	height:30vh;
+}
+
+a{
+	color:teal;
+}
+
+contactbox{
+	font-size: 100%;
+}
