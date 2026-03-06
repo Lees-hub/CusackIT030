@@ -1,13 +1,19 @@
 
-
 .formatbox{
     padding: 5px;
     
 }
 
-h1{
-	font-size: 400%;
+#header{
+	font-size: 100%;
+	position: fixed;
+	top:0;
+	z-index: 10 ;
+	padding-left: 89vw;
+	background-color:#759E57;
 }
+
+
 
 h2{
 	border: 3px solid black;
@@ -22,9 +28,11 @@ h2{
 }
 
 body{
+	padding-top: 60px;
 	background: #ffffff;
 	font-family: Arial, Verdania, sans-serif, ;
-	color: #000000
+	color: #000000;
+	z-index: 20;
 }
 
 p{
