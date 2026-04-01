@@ -20,7 +20,8 @@ padding: 20px;
 border: 1px solid black;
 padding: 10px;
 margin-bottom: 15px;
-background-color: #ffffff;
+background: #FFFFFF;
+border-radius: 5px;
 line-height: 1.5;
 }
 
