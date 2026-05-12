@@ -6,6 +6,7 @@ background: #7ABADB;
 
 header {
 padding: 20px;
+background: #AFE1AF;
 }
 
 nav a {
@@ -16,11 +17,64 @@ main {
 padding: 20px;
 }
 
+.help{
+  display:flex;
+  flex-direction: row;
+  grid-gap: 2px;
+
+}
+
 .section-box {
 border: 1px solid black;
 padding: 10px;
 margin-bottom: 15px;
+background: #FFFFFF;
+border-radius: 5px;
 line-height: 1.5;
+}
+
+.Sports-Box {
+  border: 1px solid black;
+padding: 10px;
+margin: 15px;
+background: #FFFFFF;
+border-radius: 5px;
+line-height: 1.5;
+
+}
+
+.item-card{
+  display: inline-block;
+  border: 1px solid black;
+padding: 10px;
+margin: 15px;
+background: #FFFFFF;
+border-radius: 5px;
+line-height: 1.5;
+flex-wrap: wrap;
+width: 20%;
+height:20%;
+}
+
+.skills-box{
+  border: 1px solid black;
+  padding: 10px;
+  background: #FFFFFF;
+  border-radius: 5px;
+  line-height: 1.5;
+  margin: 20px;
+  min-width: 20%;
+  max-width: 30%;
+ 
+}
+
+.skills-img{
+ min-height: 2vh;
+ max-height: 2vh;
+ max-width: 2vw;
+ margin:20px;
+ border-radius: 5px;
+
 }
 
 footer {
@@ -28,23 +82,28 @@ padding: 20px;
 }
 
 .lee-photo{
-	 display: flex;
+   display: flex;
   flex-direction: column;
-    max-width: 100%;
+    max-width: 20%;
   justify-content: space-evenly;
   align-items: center;
-	
+  flex-wrap: wrap;
+  padding-left: 30vw;
 
+}
+
+#count{
+  padding: 20px;
+}
+
+label{
+  padding-left: 20px;
+  margin-top: 20px;
 }
 
 .work-photos{
-  display: flex;
-  flex-direction: row;
-    max-width: 100%;
-    max-height: 20%;
-    min-height: 20%;
- justify-content: space-evenly;
-  align-items: center;
-
+  display: inline-block;
+ 
+margin: 10px;
+  
 }
-
