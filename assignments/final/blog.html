@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YS1DWK0QZS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-YS1DWK0QZS');
+</script>
+<meta charset="UTF-8">
+<title>Interests</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>Lee Cusack - Skills</h1>
+<nav>
+<a href="index.html" onclick="gtag('event','nav_click',{'link':'home'})">Home</a>
+<a href="about.html" onclick="gtag('event','nav_click',{'link':'about'})">About</a>
+<a href="work.html"onclick="gtag('event','nav_click',{'link':'work'})">Work</a>
+<a href="contact.html" onclick="gtag('event','nav_click',{'link':'contact'})">Contact</a>
+<a href="Blog.html" onclick="gtag('event','nav_click',{'link':'skills'})">Skills</a>
+</nav>
+</header>
+
+
+
+<div id="Selection">
+  <label for="Topic">Choose a topic that I am proficient in:</label>
+<select id="Topic" onchange="filterItems(this.value)">
+  <option value>All</option>
+  <option value="Audio">Audio</option>
+  <option value="Video">Video</option>
+  <option value="IT">IT</option>
+</select>
+</div>
+
+
+
+<div id="RenderHere"> </div>
+<p id="count"> </p>
+
+
+<script src="Javascript.js"></script>
+
+
+</body>
+<footer>
+<p>© 2026 Lee Cusack</p>
+</footer>
+
+</html>
